@@ -1,0 +1,21 @@
+project:
+  sourceknight: 0.1
+  name: bannedclans
+  dependencies:
+    - name: sourcemod
+      type: tar
+      version: 1.10.0-git6528
+      location: https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6528-linux.tar.gz
+      unpack:
+      - source: /addons
+        dest: /addons
+    - name: autoexecconfig
+      type: git
+      repo: https://github.com/Impact123/AutoExecConfig.git
+      unpack:
+      - source: /autoexecconfig.inc
+        dest: /addons/sourcemod/scripting/include/autoexecconfig.inc
+  root: /
+  output: /addons/sourcemod/plugins
+  targets:
+    - bannedclans
