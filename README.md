@@ -12,7 +12,7 @@ CS:GO is tested as working, but this may work for other versions of CS as well. 
 
 ## Convars
 
-- `sm_bannedclans_enable <0|1>`: enable or disable the plugin (defaukt 0)
+- `sm_bannedclans_enable <0|1>`: enable or disable the plugin (default 0)
 - `sm_bannedclans_file <path>`: path to list of clan IDs to moderate (see below). path is specified relative to the server's `csgo` directory.
 - `sm_bannedclans_maxwarnings <number>`: number of warning kicks before a user will be banned (default 1)
 - `sm_bannedclans_banduration <number>`: number of minutes for bans, or 0 for permanent bans (default 60)
